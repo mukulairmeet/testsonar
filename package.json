@@ -106,8 +106,8 @@
     "update-notifier": "^2.5.0",
     "uuid": "^3.0.0",
     "winston": "^1.0.1",
-    "serverless-offline": "5.12.1"
-    "aws-lambda": "0.1.2",
+    "serverless-offline": "5.12.1",
+    "aws-lambda": "0.1.2"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
