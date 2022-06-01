@@ -13,8 +13,9 @@
     "format": "npm run lint -- --fix --quiet",
     "lint": "eslint '**/*.{js,ts}'",
     "mocha": "nyc mocha --opts mocha.opts",
-    "prepare": "npm run clean && npm run build -- --build tsconfig.publish.json",
-    "test": "npm run lint -- --quiet && npm run mocha"
+    "prepare": "npm run snyk-protect && npm run clean && npm run build -- --build tsconfig.publish.json",
+    "test": "npm run lint -- --quiet && npm run mocha",
+    "snyk-protect": "snyk-protect"
   },
   "files": [
     "lib",
@@ -107,7 +108,8 @@
     "uuid": "^3.0.0",
     "winston": "^1.0.1",
     "serverless-offline": "5.12.1",
-    "aws-lambda": "0.1.2"
+    "aws-lambda": "0.1.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
@@ -162,5 +164,6 @@
     "supertest": "^3.3.0",
     "ts-node": "^7.0.1",
     "typescript": "^3.4.5"
-  }
+  },
+  "snyk": true
 }
