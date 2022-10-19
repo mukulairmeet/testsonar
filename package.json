@@ -89,7 +89,7 @@
     "lodash": "4.17.11",
     "marked": "^0.7.0",
     "marked-terminal": "^3.3.0",
-    "minimatch": "^3.0.4",
+    "minimatch": "^3.0.5",
     "open": "^6.3.0",
     "ora": "^3.4.0",
     "plist": "^3.0.1",
