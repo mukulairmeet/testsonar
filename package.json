@@ -93,7 +93,7 @@
     "open": "^6.3.0",
     "ora": "^3.4.0",
     "plist": "^3.0.1",
-    "portfinder": "^1.0.23",
+    "portfinder": "^1.0.25",
     "progress": "^2.0.3",
     "request": "^2.87.0",
     "semver": "^5.0.3",
