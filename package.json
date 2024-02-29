@@ -64,7 +64,7 @@
   "dependencies": {
     "@google-cloud/pubsub": "^1.1.5",
     "JSONStream": "^1.2.1",
-    "archiver": "^3.0.0",
+    "archiver": "^7.0.0",
     "body-parser": "^1.19.0",
     "chokidar": "^3.0.2",
     "cjson": "^0.3.1",
